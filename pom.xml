@@ -40,13 +40,6 @@
         </license>
     </licenses>
 
-    <scm>
-        <url>https://github.com/wso2/product-mi-tooling.git</url>
-        <developerConnection>scm:git:https://github.com/wso2/product-mi-tooling.git</developerConnection>
-        <connection>scm:git:https://github.com/wso2/product-mi-tooling.git</connection>
-        <tag>v1.2.0-rc1</tag>
-    </scm>
-
     <modules>
         <module>monitoring-dashboard</module>
         <module>encryption-client</module>
@@ -231,18 +224,6 @@
                             </goals>
                         </execution>
                     </executions>
-                </plugin>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-release-plugin</artifactId>
-                    <configuration>
-                        <preparationGoals>clean install</preparationGoals>
-                        <autoVersionSubmodules>true</autoVersionSubmodules>
-                    </configuration>
-                </plugin>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-deploy-plugin</artifactId>
                 </plugin>
                 <plugin>
                     <artifactId>maven-assembly-plugin</artifactId>
