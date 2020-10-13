@@ -125,10 +125,22 @@
         <dependency>
             <groupId>org.wso2.ei</groupId>
             <artifactId>automation-extensions</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.wso2.carbon.automationutils</groupId>
+                    <artifactId>org.wso2.carbon.integration.common.extensions</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.wso2.ei</groupId>
             <artifactId>integration-test-utils</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.wso2.carbon.automationutils</groupId>
+                    <artifactId>org.wso2.carbon.integration.common.extensions</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
     </dependencies>
     
