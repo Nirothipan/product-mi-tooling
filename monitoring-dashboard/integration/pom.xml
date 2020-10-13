@@ -55,7 +55,7 @@
     </dependencyManagement>
 
     <properties>
-        <automation.version>4.4.4</automation.version>
+        <automation.version>4.4.7</automation.version>
         <mi.automation.version>1.2.0</mi.automation.version>
     </properties>
 
